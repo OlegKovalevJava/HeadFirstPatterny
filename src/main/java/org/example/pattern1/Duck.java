@@ -1,4 +1,4 @@
-package org.example;
+package org.example.pattern1;
 
 public abstract class Duck {
 
