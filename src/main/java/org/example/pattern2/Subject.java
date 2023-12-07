@@ -1,9 +1,9 @@
 package org.example.pattern2;
 
 public interface Subject {
-    void registerObserver();
+    void registerObserver(Observer o);
 
-    void removeObserver();
+    void removeObserver(Observer o);
 
     void notifyObserver();
 }
