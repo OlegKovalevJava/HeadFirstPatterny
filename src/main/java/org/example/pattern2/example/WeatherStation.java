@@ -1,4 +1,4 @@
-package org.example.pattern2;
+package org.example.pattern2.example;
 
 public class WeatherStation {
     public static void main(String[] args) {

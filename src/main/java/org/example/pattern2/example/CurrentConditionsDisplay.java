@@ -1,4 +1,4 @@
-package org.example.pattern2;
+package org.example.pattern2.example;
 
 public class CurrentConditionsDisplay implements Observer, DisplayElement {
     private float temperature;
