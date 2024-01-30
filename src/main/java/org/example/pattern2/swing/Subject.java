@@ -1,4 +1,4 @@
-package org.example.pattern2.example;
+package org.example.pattern2.swing;
 
 public interface Subject {
     void registerObserver(Observer o);
