@@ -1,4 +1,4 @@
-package org.example.pattern2;
+package org.example.pattern2OBSERVER;
 
 import javax.swing.*;
 

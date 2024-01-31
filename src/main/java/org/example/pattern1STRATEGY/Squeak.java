@@ -1,4 +1,4 @@
-package org.example.pattern1;
+package org.example.pattern1STRATEGY;
 
 //ПИСК
 public class Squeak implements QuackBehavior {

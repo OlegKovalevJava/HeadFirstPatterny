@@ -1,4 +1,4 @@
-package org.example.pattern1;
+package org.example.pattern1STRATEGY;
 
 public abstract class Duck {
     FlyBehavior flyBehavior;

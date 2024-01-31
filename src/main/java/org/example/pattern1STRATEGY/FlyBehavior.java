@@ -1,4 +1,4 @@
-package org.example.pattern1;
+package org.example.pattern1STRATEGY;
 
 public interface FlyBehavior {
     public abstract void fly();

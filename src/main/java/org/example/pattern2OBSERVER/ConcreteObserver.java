@@ -1,4 +1,4 @@
-package org.example.pattern2;
+package org.example.pattern2OBSERVER;
 
 public class ConcreteObserver implements Observer {
     @Override
