@@ -1,4 +1,4 @@
-package org.example.pattern2.swing;
+package org.example.pattern2;
 
 import java.util.ArrayList;
 import java.util.List;
