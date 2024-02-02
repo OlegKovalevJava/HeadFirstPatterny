@@ -1,4 +1,4 @@
-package org.example.pattern3DECORATOR;
+package org.example.pattern3DECORATOR.one;
 
 public class DarkRoast extends Beverage{
     public DarkRoast() {
