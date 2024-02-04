@@ -8,7 +8,7 @@ public class VeggiePizza extends Pizza {
 
     @Override
     void bake() {
-
+        System.out.println("Выпекание");
     }
 
     @Override
