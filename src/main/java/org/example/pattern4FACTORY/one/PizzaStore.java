@@ -1,9 +1,10 @@
-package org.example.pattern4FACTORY;
+package org.example.pattern4FACTORY.one;
 
 public abstract class PizzaStore {
 
     public final Pizza orderPizza(String type) {
         Pizza pizza = createPizza(type);
+
         pizza.prepare();
         pizza.bake();
         pizza.cut();

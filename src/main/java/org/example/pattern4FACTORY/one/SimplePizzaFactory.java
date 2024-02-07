@@ -1,9 +1,9 @@
-package org.example.pattern4FACTORY;
+package org.example.pattern4FACTORY.one;
 
-import org.example.pattern4FACTORY.typesOfPizzas.CheesePizza;
-import org.example.pattern4FACTORY.typesOfPizzas.ClamPizza;
-import org.example.pattern4FACTORY.typesOfPizzas.PepperoniPizza;
-import org.example.pattern4FACTORY.typesOfPizzas.VeggiePizza;
+import org.example.pattern4FACTORY.one.typesOfPizzas.CheesePizza;
+import org.example.pattern4FACTORY.one.typesOfPizzas.ClamPizza;
+import org.example.pattern4FACTORY.one.typesOfPizzas.PepperoniPizza;
+import org.example.pattern4FACTORY.one.typesOfPizzas.VeggiePizza;
 
 public class SimplePizzaFactory {
     public Pizza createPizza(String type) {
