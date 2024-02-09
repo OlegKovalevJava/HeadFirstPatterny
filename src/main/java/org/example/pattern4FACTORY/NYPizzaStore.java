@@ -1,9 +1,9 @@
-package org.example.pattern4FACTORY.one;
+package org.example.pattern4FACTORY;
 
-import org.example.pattern4FACTORY.one.typesOfPizzas.NYStyleCheesePizza;
-import org.example.pattern4FACTORY.one.typesOfPizzas.NYStyleClamPizza;
-import org.example.pattern4FACTORY.one.typesOfPizzas.NYStylePepperoniPizza;
-import org.example.pattern4FACTORY.one.typesOfPizzas.NYStyleVeggiePizza;
+import org.example.pattern4FACTORY.typesOfPizzas.NYStyleCheesePizza;
+import org.example.pattern4FACTORY.typesOfPizzas.NYStyleClamPizza;
+import org.example.pattern4FACTORY.typesOfPizzas.NYStylePepperoniPizza;
+import org.example.pattern4FACTORY.typesOfPizzas.NYStyleVeggiePizza;
 
 public class NYPizzaStore extends PizzaStore {
 

@@ -1,9 +1,12 @@
-package org.example.pattern4FACTORY.one;
+package org.example.pattern4FACTORY;
+
+import lombok.Getter;
 
 import java.util.ArrayList;
 import java.util.List;
 
 public abstract class Pizza {
+    @Getter
     String name;
     String dough;
     String sauce;
@@ -31,7 +34,4 @@ public abstract class Pizza {
         System.out.println("Place pizza in official PizzaStore box");
     }
 
-    public String getName() {
-        return name;
-    }
 }

@@ -1,4 +1,4 @@
-package org.example.pattern4FACTORY.one;
+package org.example.pattern4FACTORY;
 
 public class Main {
     public static void main(String[] args) {

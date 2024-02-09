@@ -1,4 +1,4 @@
-package org.example.pattern4FACTORY.one;
+package org.example.pattern4FACTORY;
 
 public abstract class PizzaStore {
 

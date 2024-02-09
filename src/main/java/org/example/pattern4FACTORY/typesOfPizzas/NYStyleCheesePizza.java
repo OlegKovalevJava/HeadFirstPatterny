@@ -1,6 +1,6 @@
-package org.example.pattern4FACTORY.one.typesOfPizzas;
+package org.example.pattern4FACTORY.typesOfPizzas;
 
-import org.example.pattern4FACTORY.one.Pizza;
+import org.example.pattern4FACTORY.Pizza;
 
 import java.util.ArrayList;
 import java.util.List;
