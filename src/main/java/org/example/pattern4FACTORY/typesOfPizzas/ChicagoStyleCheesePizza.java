@@ -21,7 +21,7 @@ public class ChicagoStyleCheesePizza extends Pizza {
 
     @Override
     public void prepare() {
-        super.prepare();
+
     }
 
     @Override

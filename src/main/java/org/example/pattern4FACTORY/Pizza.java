@@ -1,26 +1,23 @@
 package org.example.pattern4FACTORY;
 
 import lombok.Getter;
+import lombok.Setter;
+import org.example.pattern4FACTORY.Ingredient.*;
 
-import java.util.ArrayList;
-import java.util.List;
+import java.util.Arrays;
 
 public abstract class Pizza {
     @Getter
+    @Setter
     String name;
-    String dough;
-    String sauce;
-    List<String> toppings = new ArrayList<>();
+    Dough dough;
+    Sauce sauce;
+    Veggies veggies[];
+    Cheese cheese;
+    Pepperoni pepperoni;
+    Clams clams;
 
-    public void prepare() {
-        System.out.println("Preparing " + name);
-        System.out.println("Tossing dough...");
-        System.out.println("Adding sauce...");
-        System.out.println("Adding toppings: ");
-        for (String topping : toppings) {
-            System.out.println(" " + topping);
-        }
-    }
+    public abstract void prepare();
 
     public void bake() {
         System.out.println("Bake for 25 minutes at 350");
@@ -34,4 +31,16 @@ public abstract class Pizza {
         System.out.println("Place pizza in official PizzaStore box");
     }
 
+    @Override
+    public String toString() {
+        return "Pizza{" +
+                "name='" + name + '\'' +
+                ", dough=" + dough +
+                ", sauce=" + sauce +
+                ", veggies=" + Arrays.toString(veggies) +
+                ", cheese=" + cheese +
+                ", pepperoni=" + pepperoni +
+                ", clams=" + clams +
+                '}';
+    }
 }
