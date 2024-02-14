@@ -1,4 +1,4 @@
-package org.example.pattern4FACTORY;
+package org.example.pattern4FACTORY.typesOfPizzas;
 
 import lombok.Getter;
 import lombok.Setter;
@@ -12,7 +12,7 @@ public abstract class Pizza {
     String name;
     Dough dough;
     Sauce sauce;
-    Veggies veggies[];
+    Veggies[] veggies;
     Cheese cheese;
     Pepperoni pepperoni;
     Clams clams;

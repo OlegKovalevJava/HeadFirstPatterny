@@ -1,7 +1,6 @@
 package org.example.pattern4FACTORY.typesOfPizzas;
 
-import org.example.pattern4FACTORY.Pizza;
-import org.example.pattern4FACTORY.PizzaIngredientFactory;
+import org.example.pattern4FACTORY.factory.PizzaIngredientFactory;
 
 public class CheesePizza extends Pizza {
     PizzaIngredientFactory ingredientFactory;
@@ -13,9 +12,11 @@ public class CheesePizza extends Pizza {
         this.ingredientFactory = ingredientFactory;
     }
 
-
     @Override
     public void prepare() {
-
+        System.out.println("Preparing " + name);
+        dough = ingredientFactory.createDough();
+        sauce = ingredientFactory.createSauce();
+        cheese = ingredientFactory.createCheese();
     }
 }

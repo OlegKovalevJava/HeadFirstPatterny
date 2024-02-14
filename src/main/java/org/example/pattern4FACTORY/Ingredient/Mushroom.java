@@ -1,4 +1,4 @@
 package org.example.pattern4FACTORY.Ingredient;
 
-public class Pepperoni {
+public class Mushroom extends Veggies {
 }

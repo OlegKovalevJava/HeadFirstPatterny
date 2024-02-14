@@ -1,4 +1,4 @@
-package org.example.pattern4FACTORY;
+package org.example.pattern4FACTORY.factory;
 
 import org.example.pattern4FACTORY.Ingredient.*;
 

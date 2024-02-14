@@ -1,4 +1,4 @@
-package org.example.pattern4FACTORY;
+package org.example.pattern4FACTORY.factory;
 
 import org.example.pattern4FACTORY.Ingredient.*;
 
@@ -20,8 +20,7 @@ public class NYPizzaIngredientFactory implements PizzaIngredientFactory {
 
     @Override
     public Veggies[] createVeggies() {
-        Veggies veggies[] = {new Garlic(), new Onion(), new Mushroom(), new RedPepper()};
-        return veggies;
+        return new Veggies[]{new Garlic(), new Onion(), new Mushroom(), new RedPepper()};
     }
 
     @Override

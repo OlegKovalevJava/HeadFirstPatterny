@@ -1,7 +1,5 @@
 package org.example.pattern4FACTORY.typesOfPizzas;
 
-import org.example.pattern4FACTORY.Pizza;
-
 import java.util.ArrayList;
 import java.util.List;
 
@@ -18,7 +16,6 @@ public class NYStyleCheesePizza extends Pizza {
 
         toppings.add("Grated Reggiano Cheese");
     }
-
 
     @Override
     public void prepare() {

@@ -1,5 +1,7 @@
 package org.example.pattern4FACTORY;
 
+import org.example.pattern4FACTORY.typesOfPizzas.Pizza;
+
 public abstract class PizzaStore {
 
     public final Pizza orderPizza(String type) {

@@ -1,9 +1,6 @@
 package org.example.pattern4FACTORY;
 
-import org.example.pattern4FACTORY.typesOfPizzas.ChicagoStyleCheesePizza;
-import org.example.pattern4FACTORY.typesOfPizzas.ChicagoStyleClamPizza;
-import org.example.pattern4FACTORY.typesOfPizzas.ChicagoStylePepperoniPizza;
-import org.example.pattern4FACTORY.typesOfPizzas.ChicagoStyleVeggiePizza;
+import org.example.pattern4FACTORY.typesOfPizzas.*;
 
 public class ChicagoPizzaStore extends PizzaStore {
 
