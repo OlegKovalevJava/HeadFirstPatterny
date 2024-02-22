@@ -1,4 +1,4 @@
-package org.example.pattern6COMMAND;
+package org.example.pattern6COMMAND.one;
 
 public class LightOnCommand implements Command{
     Light light;
